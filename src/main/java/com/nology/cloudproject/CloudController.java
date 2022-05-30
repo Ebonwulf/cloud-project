@@ -8,6 +8,6 @@ public class CloudController {
 
     @GetMapping("/message")
     public String getMessage() {
-        return "This is stupid";
+        return "This is stupid message";
     }
 }
